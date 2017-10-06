@@ -3,13 +3,12 @@ package Zadanie04;
 
 public interface Rentable {
 
-    Person person = null;
 
-    Person rent(String firstName, String lastName, String Id);
 
     void handOver();
-
+    Person getCustomer();
     boolean isRent();
+    void rent(Person person);
 
 
 }

@@ -17,4 +17,9 @@ public class Person {
     public Person() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Imie"+ firstName+" Zazwisko: "+ lastName+" wiek: "+age+ "id: "+id;
+    }
 }

@@ -4,24 +4,13 @@ public class Car extends Vehicle{
 
     int seatsNumber;
 
-
-    @Override
-    public String turnLeft() {
-        return "LEFT";
+    public Car(String name, int prodYesr, String direction, int seatsNumber) {
+        super(name, prodYesr, direction);
+        this.seatsNumber = seatsNumber;
     }
 
     @Override
-    public String turnRight() {
-        return "RIGHT";
-    }
-
-    @Override
-    public String goForward() {
-        return "FORWARD";
-    }
-
-    @Override
-    public String goBack() {
-        return "BACK";
+    public String toString() {
+        return super.toString()+" liczba siedzen: "+seatsNumber;
     }
 }
