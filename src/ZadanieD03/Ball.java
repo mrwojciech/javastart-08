@@ -1,6 +1,6 @@
 package ZadanieD03;
 
-public class Ball {
+public class Ball extends Shape3D{
 
     double radius;
 

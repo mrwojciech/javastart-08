@@ -1,6 +1,6 @@
 package ZadanieD03;
 
-public class Circle {
+public class Circle extends GeometricShape{
     double radius;
 
 

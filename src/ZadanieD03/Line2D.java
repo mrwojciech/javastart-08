@@ -1,6 +1,6 @@
 package ZadanieD03;
 
-public class Line2D {
+public class Line2D extends Shape2D{
 
     double x1, x2;
     double y1, y2;

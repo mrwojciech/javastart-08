@@ -1,6 +1,6 @@
 package ZadanieD03;
 
-public class Cube {
+public class Cube extends Shape3D{
     double side;
 
 

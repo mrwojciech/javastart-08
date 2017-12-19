@@ -1,6 +1,6 @@
 package ZadanieD03;
 
-public class Rectangle {
+public class Rectangle extends  GeometricShape{
 
     double sideA, sideB;
 
